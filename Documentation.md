@@ -22,4 +22,17 @@ This page contains the details about the product for sale, such as;
 
 ## Account
 
-This page contains User details link 
+This page contains User details link
+
+### General
+- Account information
+- Account Location
+- Transaction History
+- Notification
+<image style="border-radius:10px;" src="./assets/images/ss/Account_page" width="200"/>
+
+### Support
+- Report Issue
+- FAQs
+
+<image style="border-radius:10px;" src="./assets/images/ss/Profile_page" width="200"/>
