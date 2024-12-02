@@ -129,7 +129,7 @@ export default function HomeScreen() {
 				<AnimatedFAB
 					color="#ccc"
 					icon={"plus"}
-					label={"Create an ad"}
+					label={"Add Item"}
 					extended={isExtended}
 					onPress={() => router.push("/product/create")}
 					visible
