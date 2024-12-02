@@ -26,13 +26,16 @@ This page contains User details link
 
 ### General
 - Account information
+
 - Account Location
 - Transaction History
 - Notification
-<image style="border-radius:10px;" src="./assets/images/ss/Account_page" width="200"/>
 
 ### Support
-- Report Issue
+- Report an Issue
 - FAQs
 
-<image style="border-radius:10px;" src="./assets/images/ss/Profile_page" width="200"/>
+### Screenshot
+
+<image style="border-radius:10px;" src="./assets/images/ss/Account_page.jpg" width="200"/>
+<image style="border-radius:10px;" src="./assets/images/ss/Profile_Page.jpg" width="200"/>
