@@ -51,4 +51,4 @@ Join our community of developers creating universal apps.
 
 ## App Documentation
 
-<a href="./Documentation.md">Go to documentation</a>
+<a href="Documentation.md">Go to documentation</a>
