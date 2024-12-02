@@ -35,7 +35,7 @@ This page contains User details link
 - Report an Issue
 - FAQs
 
-### Screenshot
+### Screenshots
 
 <image style="border-radius:10px;" src="./assets/images/ss/Account_page.jpg" width="200"/>
-<image style="border-radius:10px;" src="./assets/images/ss/Profile_Page.jpg" width="200"/>
+<image style="border-radius:10px;" src="./assets/images/ss/Profile_page.jpg" width="200"/>
