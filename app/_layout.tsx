@@ -53,6 +53,7 @@ export default function RootLayout() {
 						/>
 						<Stack.Screen name="product" options={{ headerShown: false }} />
 						<Stack.Screen name="register" options={{ headerShown: false }} />
+						<Stack.Screen name="profilePage" options={{ headerShown: false }} />
 						<Stack.Screen name="(tabs)" options={{ headerShown: false }} />
 						<Stack.Screen name="+not-found" />
 					</Stack>

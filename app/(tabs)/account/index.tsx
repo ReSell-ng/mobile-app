@@ -20,6 +20,7 @@ import { useAuthStore } from "@/store";
 import { IconProps } from "@expo/vector-icons/build/createIconSet";
 import { useAppearance } from "@/hooks/useAppearance";
 import { useThemeStore } from "@/store/theme.store";
+import profilePage  from "@/app/profilePage";
 
 const LeftContent = (props: any) => <Avatar.Icon {...props} icon="folder" />;
 
@@ -46,7 +47,7 @@ export default function Account() {
 		{
 			title: "Account information",
 			iconName: "person-circle-outline",
-			onPress() {},
+			onPress() { router.push('/(tabs)/account/profile') },
 		},
 		{
 			title: "Address information",

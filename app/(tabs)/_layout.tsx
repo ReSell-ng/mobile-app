@@ -154,7 +154,7 @@ export default function TabLayout() {
 							color={color}
 						/>
 					),
-					headerShown: true,
+					headerShown: false,
 					headerTitle() {
 						const router = useRouter();
 						const iconColor = useThemeColor({}, "icon");

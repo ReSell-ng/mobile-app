@@ -92,8 +92,9 @@ export default function Page() {
 				className={`bg-green-800  dark:bg-green-950 flex-1 px-4`}
 				style={{ paddingTop: top }}
 			>
+				{/* Corrected Project name */}
 				<Text className="text-xl mt-2.5 mb-3 font-semibold text-white">
-					Join FUTOresell
+					Join ReSell
 				</Text>
 				<Text className="text-4xl font-bold text-white">Sign up</Text>
 				{/* <View>
