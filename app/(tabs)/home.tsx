@@ -157,8 +157,9 @@ function groupByCategory(data: any[]) {
 	for (const item of data) {
 		const categoryTitle = item.categories.title;
 		const categoryId = item.categories.id;
-
+		// @ts-expect-error
 		if (!groups[categoryTitle]) {
+			// @ts-expect-error
 			groups[categoryTitle] = {
 				title: categoryTitle,
 				id: categoryId,
@@ -166,6 +167,7 @@ function groupByCategory(data: any[]) {
 			};
 		}
 
+		// @ts-expect-error
 		groups[categoryTitle].ads.push(item);
 	}
 
