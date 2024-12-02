@@ -1,4 +1,6 @@
-# Homepage
+# Documentation
+
+## Homepage
 
 This contains the list of all products for sale in the application.
 The products are grouped into categories. Users can brows through the products by scrolling horizontally
@@ -17,3 +19,20 @@ This page contains the details about the product for sale, such as;
 
 <image style="border-radius:10px;" src="./assets/images/ss/details-1.jpg" width="200"/>
 <image style="border-radius:10px;" src="./assets/images/ss/details-2.jpg" width="200"/>-
+
+## Account
+
+This page contains User details link
+
+### General
+- Account information
+- Account Location
+- Transaction History
+- Notification
+<image style="border-radius:10px;" src="./assets/images/ss/Account_page" width="200"/>
+
+### Support
+- Report Issue
+- FAQs
+
+<image style="border-radius:10px;" src="./assets/images/ss/Profile_page" width="200"/>
