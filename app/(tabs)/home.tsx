@@ -62,7 +62,7 @@ export default function HomeScreen() {
 	const [categories, setCategories] = React.useState<TCategory[]>([]);
 	const user = useUserStore((st) => st.user_metadata);
 
-	console.log(user);
+	// console.log(user);
 
 	const { width } = Dimensions.get("screen");
 	const hero1 = require("@/assets/images/hero-1.jpg");
