@@ -68,18 +68,6 @@ export default function TabLayout() {
 					},
 				}}
 			/>
-			<Tabs.Screen
-				name="explore"
-				options={{
-					title: "Categories",
-					tabBarIcon: ({ color, focused }) => (
-						<TabBarIcon
-							name={focused ? "list-circle" : "list-circle-outline"}
-							color={color}
-						/>
-					),
-				}}
-			/>
 
 			<Tabs.Screen
 				name="cart"
