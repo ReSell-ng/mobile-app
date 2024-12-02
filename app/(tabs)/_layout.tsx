@@ -37,39 +37,6 @@ export default function TabLayout() {
 			}}
 		>
 			<Tabs.Screen
-				name="home"
-				options={{
-					title: "Home",
-					tabBarIcon: ({ color, focused }) => (
-						<TabBarIcon
-							name={focused ? "home" : "home-outline"}
-							color={color}
-						/>
-					),
-					headerTitle() {
-						return (
-							<View className="flex flex-row items-center p-[3%] pt-4 justify-between w-full">
-								<Card.Cover
-									source={logo}
-									style={{
-										height: 40,
-										width: 100,
-										backgroundColor: "transparent",
-									}}
-									resizeMode="contain"
-								/>
-								<Ionicons
-									size={30}
-									onPress={() => router.push("/product/search-result")}
-									name="search"
-								/>
-							</View>
-						);
-					},
-				}}
-			/>
-
-			<Tabs.Screen
 				name="cart"
 				options={{
 					title: "Catalogue",
@@ -145,6 +112,38 @@ export default function TabLayout() {
 				}}
 			/>
 
+			<Tabs.Screen
+				name="home"
+				options={{
+					title: "Home",
+					tabBarIcon: ({ color, focused }) => (
+						<TabBarIcon
+							name={focused ? "home" : "home-outline"}
+							color={color}
+						/>
+					),
+					headerTitle() {
+						return (
+							<View className="flex flex-row items-center p-[3%] pt-4 justify-between w-full">
+								<Card.Cover
+									source={logo}
+									style={{
+										height: 40,
+										width: 100,
+										backgroundColor: "transparent",
+									}}
+									resizeMode="contain"
+								/>
+								<Ionicons
+									size={30}
+									onPress={() => router.push("/product/search-result")}
+									name="search"
+								/>
+							</View>
+						);
+					},
+				}}
+			/>
 			<Tabs.Screen
 				name="account"
 				options={{

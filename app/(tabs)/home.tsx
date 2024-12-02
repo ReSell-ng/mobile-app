@@ -61,9 +61,9 @@ export default function HomeScreen() {
 	const isIOS = Platform.OS === "ios";
 	const [categories, setCategories] = React.useState<TCategory[]>([]);
 	const { width } = Dimensions.get("screen");
-	const hero1 = require("@/assets/images/hero-1.png");
-	const hero2 = require("@/assets/images/hero-2.png");
-	const hero3 = require("@/assets/images/hero-3.png");
+	const hero1 = require("@/assets/images/hero-1.jpg");
+	const hero2 = require("@/assets/images/hero-2.webp");
+	const hero3 = require("@/assets/images/hero-3.jpg");
 
 	const SChip = styled(Chip);
 
